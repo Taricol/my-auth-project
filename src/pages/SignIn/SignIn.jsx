@@ -5,7 +5,7 @@ import { NavLink } from "react-router";
 import { valueConText } from "../../RootLayout/RootLayout";
 
 const SignIn = () => {
-    const {handleLogin,setUser}=useContext(valueConText);
+    const {handleLogin}=useContext(valueConText);
     
     
     
@@ -20,7 +20,7 @@ const SignIn = () => {
     
     const currentUser = userCredential.user;
     
-    setUser(currentUser)
+    
   })
   .catch((error) => {
     const errorCode = error.code;

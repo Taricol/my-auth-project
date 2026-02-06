@@ -43,7 +43,7 @@ const SignUp = () => {
         .then((userCredential) => {
     
     const user = userCredential.user;
-    console.log(user);
+   
     alert("User sign up successful")
   })
   .catch((error) => {

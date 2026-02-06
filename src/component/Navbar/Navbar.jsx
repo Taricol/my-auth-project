@@ -7,6 +7,7 @@ const Navbar = () => {
       const navigate=useNavigate()
       const {pathname}=useLocation()
       console.log(pathname);
+      const {handleLogOut}=useContext(valueConText)
   return (
     <header className="p-4 bg-gray-500 text-white">
       <div className="container flex justify-between h-16 mx-auto">
@@ -60,6 +61,10 @@ const Navbar = () => {
           <button onClick={()=>navigate("/signin")} className={`self-center px-8 py-3 rounded ${pathname=="/signin"? "text-red-500" : ""}`}>Sign in</button>
           <button onClick={()=>navigate("/signup")}className={`self-center px-8 py-3 rounded ${pathname=="/signup"? "text-red-500" : ""}`}>
             Sign up
+          </button>
+
+          <button onClick={handleLogOut} className={`self-center px-8 py-3 rounded`}>
+            Logout
           </button>
         </div>
         <button className="p-4 lg:hidden">
