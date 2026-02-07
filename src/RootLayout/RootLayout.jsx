@@ -8,6 +8,7 @@ import {
   signOut,
 } from "firebase/auth";
 import { auth } from "../firebase/firebase.config";
+import Footer from "../component/Footer/Footer";
 
 export const valueConText = createContext();
 
@@ -32,7 +33,7 @@ const RootLayout = () => {
   const contextValues = {
     handleLogin,
     handleSignUp,
-    
+    setUser,
     user,
     handleLogOut
   };
@@ -44,6 +45,8 @@ const RootLayout = () => {
   useEffect(() => {
     
      const unsubscribe= onAuthStateChanged(auth, (currentUser) => {
+
+       
         
         setUser(currentUser)
         // if (currentUser) {
@@ -63,28 +66,13 @@ const RootLayout = () => {
   },[]);
 
 
-  const[count,setCount]=useState(0)
-
-  useEffect(()=>{
-    setInterval(()=>{
-      console.log("I am from rootLayout");
-    },1000)
-    
-  },[])
-  
-
-  
-
-
-
-
   return (
     <div>
-      {count}
+      
       <valueConText.Provider value={contextValues}>
         <Navbar></Navbar>
-        <button onClick={()=>setCount(count+1)} className="bg-red-500 p-5 border-2 border-yellow-500">Increment</button>
         <Outlet />
+        <Footer></Footer>
       </valueConText.Provider>
     </div>
   );

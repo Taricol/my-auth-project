@@ -1,8 +1,8 @@
 [
   {
     "company": {
-      "name": "DriveEasy Rentals",
-      "logo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=60"
+      "name": "RentGo",
+      "logo": "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
       "id": "V001",
@@ -11,13 +11,13 @@
       "model": "Corolla",
       "year": 2023,
       "daily_rate": 35.99,
-      "photo": "https://images.unsplash.com/photo-1588421357574-5c36887b776a?auto=format&fit=crop&w=500&q=60"
+      "photo": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
-      "name": "CityRide Rentals",
-      "logo": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=500&q=60"
+      "name": "RentGo",
+      "logo": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
       "id": "V002",
@@ -25,278 +25,278 @@
       "make": "Honda",
       "model": "Civic",
       "year": 2022,
-      "daily_rate": 34.50,
-      "photo": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=500&q=60"
+      "daily_rate": 36.5,
+      "photo": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
-      "name": "Urban Wheels",
-      "logo": "https://images.unsplash.com/photo-1529429611278-3d3a8b7f4a33?auto=format&fit=crop&w=500&q=60"
+      "name": "UrbanDrive",
+      "logo": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
       "id": "V003",
       "type": "SUV",
-      "make": "Nissan",
-      "model": "Rogue",
+      "make": "Toyota",
+      "model": "RAV4",
       "year": 2023,
-      "daily_rate": 48.99,
-      "photo": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=500&q=60"
+      "daily_rate": 55.0,
+      "photo": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
-      "name": "FastTrack Cars",
-      "logo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=500&q=60"
+      "name": "UrbanDrive",
+      "logo": "https://images.unsplash.com/photo-1556155092-8707de31f9c4?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
       "id": "V004",
-      "type": "Hatchback",
-      "make": "Hyundai",
-      "model": "i20",
-      "year": 2021,
-      "daily_rate": 28.99,
-      "photo": "https://images.unsplash.com/photo-1619767886558-efdc259cde1b?auto=format&fit=crop&w=500&q=60"
+      "type": "SUV",
+      "make": "Honda",
+      "model": "CR-V",
+      "year": 2022,
+      "daily_rate": 53.75,
+      "photo": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
-      "name": "AutoFlex Rentals",
-      "logo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=500&q=60"
+      "name": "CityRide",
+      "logo": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
       "id": "V005",
       "type": "Sedan",
+      "make": "Hyundai",
+      "model": "Elantra",
+      "year": 2021,
+      "daily_rate": 34.99,
+      "photo": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "CityRide",
+      "logo": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V006",
+      "type": "Compact",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2022,
+      "daily_rate": 33.5,
+      "photo": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "AutoFlex",
+      "logo": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V007",
+      "type": "SUV",
+      "make": "Ford",
+      "model": "Escape",
+      "year": 2023,
+      "daily_rate": 57.25,
+      "photo": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "AutoFlex",
+      "logo": "https://images.unsplash.com/photo-1557682260-96773eb01377?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V008",
+      "type": "Sedan",
       "make": "Mazda",
       "model": "Mazda 3",
       "year": 2022,
-      "daily_rate": 33.75,
-      "photo": "https://images.unsplash.com/photo-1597007030739-6d2e7172c1c9?auto=format&fit=crop&w=500&q=60"
+      "daily_rate": 37.99,
+      "photo": "https://images.unsplash.com/photo-1549921296-3a6b6f1ed9c7?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "RentGo",
+      "logo": "https://images.unsplash.com/photo-1532619187608-e5375cab36f4?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V009",
+      "type": "Electric",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "daily_rate": 75.0,
+      "photo": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "RentGo",
+      "logo": "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V010",
+      "type": "Electric",
+      "make": "Tesla",
+      "model": "Model Y",
+      "year": 2023,
+      "daily_rate": 80.0,
+      "photo": "https://images.unsplash.com/photo-1619767886558-efdc259cde1b?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
       "name": "PrimeDrive",
-      "logo": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=500&q=60"
+      "logo": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
-      "id": "V006",
+      "id": "V011",
       "type": "SUV",
-      "make": "Ford",
-      "model": "Escape",
-      "year": 2023,
-      "daily_rate": 52.00,
-      "photo": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=500&q=60"
+      "make": "BMW",
+      "model": "X5",
+      "year": 2022,
+      "daily_rate": 95.0,
+      "photo": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
-      "name": "EcoRide",
-      "logo": "https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&w=500&q=60"
+      "name": "PrimeDrive",
+      "logo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
-      "id": "V007",
-      "type": "Hybrid",
-      "make": "Toyota",
-      "model": "Prius",
+      "id": "V012",
+      "type": "Sedan",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2021,
+      "daily_rate": 65.0,
+      "photo": "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "Skyline Motors",
+      "logo": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V013",
+      "type": "SUV",
+      "make": "Audi",
+      "model": "Q5",
       "year": 2022,
-      "daily_rate": 39.99,
-      "photo": "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?auto=format&fit=crop&w=500&q=60"
+      "daily_rate": 90.0,
+      "photo": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "Skyline Motors",
+      "logo": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V014",
+      "type": "Sedan",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2021,
+      "daily_rate": 62.0,
+      "photo": "https://images.unsplash.com/photo-1549924231-08f3dc0eec98?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
       "name": "LuxuryLane",
-      "logo": "https://images.unsplash.com/photo-1511910849309-0dffb8785146?auto=format&fit=crop&w=500&q=60"
+      "logo": "https://images.unsplash.com/photo-1511910849309-0dffb8785146?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
-      "id": "V008",
-      "type": "Luxury",
-      "make": "BMW",
-      "model": "5 Series",
+      "id": "V015",
+      "type": "SUV",
+      "make": "Mercedes-Benz",
+      "model": "GLC",
       "year": 2023,
-      "daily_rate": 89.99,
-      "photo": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=500&q=60"
+      "daily_rate": 98.0,
+      "photo": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "LuxuryLane",
+      "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V016",
+      "type": "Sedan",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2022,
+      "daily_rate": 70.0,
+      "photo": "https://images.unsplash.com/photo-1547038577-da80abbc4f19?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
       "name": "RoadRunner",
-      "logo": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=500&q=60"
+      "logo": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
-      "id": "V009",
+      "id": "V017",
+      "type": "SUV",
+      "make": "Kia",
+      "model": "Sportage",
+      "year": 2022,
+      "daily_rate": 52.0,
+      "photo": "https://images.unsplash.com/photo-1619682817481-e994891cd1f5?auto=format&fit=crop&w=1200&q=80"
+    }
+  },
+  {
+    "company": {
+      "name": "RoadRunner",
+      "logo": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=500&q=80"
+    },
+    "vehicle": {
+      "id": "V018",
       "type": "Sedan",
       "make": "Kia",
       "model": "Optima",
       "year": 2021,
-      "daily_rate": 31.99,
-      "photo": "https://images.unsplash.com/photo-1617531653520-4893f5f7c58d?auto=format&fit=crop&w=500&q=60"
+      "daily_rate": 38.0,
+      "photo": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
-      "name": "MotionCars",
-      "logo": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V010",
-      "type": "SUV",
-      "make": "Chevrolet",
-      "model": "Equinox",
-      "year": 2022,
-      "daily_rate": 49.50,
-      "photo": "https://images.unsplash.com/photo-1541447271487-09612b3f49f7?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "Speedy Rentals",
-      "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V011",
-      "type": "Compact",
-      "make": "Suzuki",
-      "model": "Swift",
-      "year": 2021,
-      "daily_rate": 26.99,
-      "photo": "https://images.unsplash.com/photo-1601924582975-4cc9b4f46b9a?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "Skyline Cars",
-      "logo": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V012",
-      "type": "Luxury",
-      "make": "Audi",
-      "model": "A6",
-      "year": 2023,
-      "daily_rate": 92.00,
-      "photo": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "GreenMove",
-      "logo": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V013",
-      "type": "Electric",
-      "make": "Tesla",
-      "model": "Model 3",
-      "year": 2023,
-      "daily_rate": 75.99,
-      "photo": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "MetroDrive",
-      "logo": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V014",
-      "type": "Sedan",
-      "make": "Volkswagen",
-      "model": "Passat",
-      "year": 2022,
-      "daily_rate": 36.99,
-      "photo": "https://images.unsplash.com/photo-1619767886558-efdc259cde1b?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "NextGen Rentals",
-      "logo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V015",
-      "type": "SUV",
-      "make": "Hyundai",
-      "model": "Tucson",
-      "year": 2023,
-      "daily_rate": 50.99,
-      "photo": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "RapidCars",
-      "logo": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V016",
-      "type": "Compact",
-      "make": "Daihatsu",
-      "model": "Mira",
-      "year": 2020,
-      "daily_rate": 22.99,
-      "photo": "https://images.unsplash.com/photo-1597007030739-6d2e7172c1c9?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "EliteDrive",
-      "logo": "https://images.unsplash.com/photo-1515169067865-5387ec356754?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V017",
-      "type": "Luxury",
-      "make": "Mercedes-Benz",
-      "model": "E-Class",
-      "year": 2023,
-      "daily_rate": 95.99,
-      "photo": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "SmartMove",
-      "logo": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=500&q=60"
-    },
-    "vehicle": {
-      "id": "V018",
-      "type": "Hybrid",
-      "make": "Honda",
-      "model": "Insight",
-      "year": 2022,
-      "daily_rate": 41.50,
-      "photo": "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?auto=format&fit=crop&w=500&q=60"
-    }
-  },
-  {
-    "company": {
-      "name": "Zoom Rentals",
-      "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=500&q=60"
+      "name": "NextGen Mobility",
+      "logo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
       "id": "V019",
-      "type": "Sedan",
-      "make": "Skoda",
-      "model": "Octavia",
-      "year": 2021,
-      "daily_rate": 38.99,
-      "photo": "https://images.unsplash.com/photo-1541447271487-09612b3f49f7?auto=format&fit=crop&w=500&q=60"
+      "type": "SUV",
+      "make": "Jeep",
+      "model": "Compass",
+      "year": 2022,
+      "daily_rate": 58.0,
+      "photo": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1200&q=80"
     }
   },
   {
     "company": {
-      "name": "FutureDrive",
-      "logo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=60"
+      "name": "NextGen Mobility",
+      "logo": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=500&q=80"
     },
     "vehicle": {
       "id": "V020",
-      "type": "Electric",
-      "make": "Nissan",
-      "model": "Leaf",
+      "type": "Pickup",
+      "make": "Ford",
+      "model": "Ranger",
       "year": 2023,
-      "daily_rate": 59.99,
-      "photo": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=500&q=60"
+      "daily_rate": 72.0,
+      "photo": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=1200&q=80"
     }
   }
 ]
