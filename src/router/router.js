@@ -5,6 +5,7 @@ import About from "../pages/About/About";
 import Blog from "../pages/Blog/Blog";
 import SignIn from "../pages/SignIn/SignIn";
 import SignUp from "../pages/SignUp/SignUp";
+import Documentation from "../pages/Documentation/Documentation";
 
 export const router = createBrowserRouter([
   {
@@ -32,4 +33,8 @@ export const router = createBrowserRouter([
         }
     ]
   },
+  {
+    path:"/documentation",
+    Component:Documentation
+  }
 ]);

@@ -6,7 +6,7 @@ const Navbar = () => {
  
       const navigate=useNavigate()
       const {pathname}=useLocation()
-      console.log(pathname);
+      // console.log(pathname);
       const {handleLogOut}=useContext(valueConText)
   return (
     <header className="p-4 bg-gray-500 text-white">
@@ -53,6 +53,16 @@ const Navbar = () => {
               to='/blog'
             >
               Blog
+            </NavLink>
+          </li>
+
+          <li className="flex">
+            <NavLink
+              
+              className="flex items-center px-4 -mb-1  "
+              to='/documentation'
+            >
+              Documentation
             </NavLink>
           </li>
           

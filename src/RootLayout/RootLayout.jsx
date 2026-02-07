@@ -13,7 +13,7 @@ export const valueConText = createContext();
 
 const RootLayout = () => {
   const [user, setUser] = useState(null);
-  console.log(user);
+  
 
   const handleLogin = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);
@@ -37,6 +37,8 @@ const RootLayout = () => {
     handleLogOut
   };
 
+
+
   
 
   useEffect(() => {
@@ -59,10 +61,29 @@ const RootLayout = () => {
       }
    
   },[]);
+
+
+  const[count,setCount]=useState(0)
+
+  useEffect(()=>{
+    setInterval(()=>{
+      console.log("I am from rootLayout");
+    },1000)
+    
+  },[])
+  
+
+  
+
+
+
+
   return (
     <div>
+      {count}
       <valueConText.Provider value={contextValues}>
         <Navbar></Navbar>
+        <button onClick={()=>setCount(count+1)} className="bg-red-500 p-5 border-2 border-yellow-500">Increment</button>
         <Outlet />
       </valueConText.Provider>
     </div>
