@@ -5,10 +5,11 @@ import { NavLink, useLocation, useNavigate } from "react-router";
 import { valueConText } from "../../RootLayout/RootLayout";
 
 const SignIn = () => {
-    const {handleLogin}=useContext(valueConText);
+    const {handleLogin,handleForgetPassword}=useContext(valueConText);
+    const [userEmail,setUserEmail]=useState("")
     const location=useLocation()
-    console.log(location.state.from);
-    const from=location.state.from
+    
+    const from=location?.state?.from
     const navigate=useNavigate()
     
     
@@ -23,7 +24,7 @@ const SignIn = () => {
         .then((userCredential) => {
     
     const currentUser = userCredential.user;
-    navigate(from)
+    navigate(from? from:"/")
     
     
   })
@@ -111,6 +112,7 @@ const SignIn = () => {
               type="email"
               name="email"
               id="email"
+              onChange={(e)=>setUserEmail(e.target.value)}
               placeholder="leroy@jenkins.com"
               className="w-full px-3 py-2 border rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600"
             />
@@ -144,6 +146,8 @@ const SignIn = () => {
           Sign in
         </button>
       </form>
+
+      <button onClick={()=>handleForgetPassword(userEmail)}>Forget Password</button>
     </div>
   );
 };

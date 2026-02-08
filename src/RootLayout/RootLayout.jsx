@@ -4,6 +4,7 @@ import Navbar from "../component/Navbar/Navbar";
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
+  sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signOut,
 } from "firebase/auth";
@@ -15,7 +16,7 @@ export const valueConText = createContext();
 const RootLayout = () => {
   const [user, setUser] = useState(null);
   const [loading,setLoading]=useState(true)
-  
+  console.log(user);
 
   const handleLogin = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);
@@ -31,13 +32,23 @@ const RootLayout = () => {
   // An error happened.
 });
   }
+  const handleForgetPassword=(email)=>{
+    console.log(email);
+        sendPasswordResetEmail(auth, email)
+  .then(() => {
+    // Password reset email sent!
+    // ..
+  })
+ 
+  }
   const contextValues = {
     handleLogin,
     handleSignUp,
     setUser,
     user,
     loading,
-    handleLogOut
+    handleLogOut,
+    handleForgetPassword
   };
 
 
