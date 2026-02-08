@@ -10,12 +10,10 @@ const CarDetails = () => {
   const { daily_rate, make, model, photo, type, year } = singleData.vehicle;
   const {logo,name}=singleData.company
 
-    const {user}=useContext(valueConText)
-    
-    
-    if(!user || !user?.email){
-       return <Navigate to="/signin"></Navigate>
-    }
+    // const {user}=useContext(valueConText)  
+    // if(!user || !user?.email){
+    //    return <Navigate to="/signin"></Navigate>
+    // }
 
   return (
     <div className="flex mx-auto flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800">

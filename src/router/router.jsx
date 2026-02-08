@@ -28,7 +28,9 @@ export const router = createBrowserRouter([
       },
       {
         path: "/blog",
-        Component: Blog,
+        element:<PrivateRoute>
+          <Blog></Blog>
+        </PrivateRoute>,
       },
       {
         path: "/signin",
@@ -40,7 +42,9 @@ export const router = createBrowserRouter([
       },
       {
         path: "/cardetails/:id",
-        Component: CarDetails,
+        element:<PrivateRoute>
+          <CarDetails></CarDetails>
+        </PrivateRoute>,
         loader: () => fetch("/data.json"),
       },
     ],

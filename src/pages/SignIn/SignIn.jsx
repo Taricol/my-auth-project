@@ -1,11 +1,15 @@
 
 import React, { useContext, useState } from "react";
-import { NavLink } from "react-router";
+import { NavLink, useLocation, useNavigate } from "react-router";
 
 import { valueConText } from "../../RootLayout/RootLayout";
 
 const SignIn = () => {
     const {handleLogin}=useContext(valueConText);
+    const location=useLocation()
+    console.log(location.state.from);
+    const from=location.state.from
+    const navigate=useNavigate()
     
     
     
@@ -19,6 +23,7 @@ const SignIn = () => {
         .then((userCredential) => {
     
     const currentUser = userCredential.user;
+    navigate(from)
     
     
   })

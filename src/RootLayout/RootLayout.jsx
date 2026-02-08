@@ -14,6 +14,7 @@ export const valueConText = createContext();
 
 const RootLayout = () => {
   const [user, setUser] = useState(null);
+  const [loading,setLoading]=useState(true)
   
 
   const handleLogin = (email, password) => {
@@ -35,6 +36,7 @@ const RootLayout = () => {
     handleSignUp,
     setUser,
     user,
+    loading,
     handleLogOut
   };
 
@@ -46,9 +48,8 @@ const RootLayout = () => {
     
      const unsubscribe= onAuthStateChanged(auth, (currentUser) => {
 
-       
-        
         setUser(currentUser)
+        setLoading(false)
         // if (currentUser) {
         //   // User is signed in, see docs for a list of available properties
         //   // https://firebase.google.com/docs/reference/js/auth.user
